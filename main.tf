@@ -3,7 +3,7 @@ resource "google_container_cluster" "primary" {
   location           = "us-central1-a"
   initial_node_count = 3
   node_config {
-    service_account = "terraforms@terraform-testing-362009.iam.gserviceaccount.com"
+    service_account = "terraform@my-test-362010.iam.gserviceaccount.com"
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform"
     ]
